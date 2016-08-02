@@ -27,11 +27,11 @@ $(document).scroll(function() {
 		$('#karma').fadeIn();
 
 	} 
-	else if (y > 1400, y < 2100){
+	else if (y > 1400, y < 2200){
 		$('#karma').fadeOut();
 		$('#fighter').fadeIn();
 	}	
-	else if (y > 1800) {
+	else if (y > 2200) {
 		$('#fighter').fadeOut();
 		$('#nyt-hack').fadeIn();
 	}
